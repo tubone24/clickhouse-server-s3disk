@@ -74,7 +74,7 @@ Add the S3 region and bucket name to the Clickhouse task definition as follows:
 
 ## Special Thanks
 
-I would like to express my sincere gratitude to @Steffen911 who provided invaluable guidance through [the Langfuse Discussion](https://github.com/orgs/langfuse/discussions/5516) forum, helping us arrive at this Clickhouse implementation solution.
+I would like to express my sincere gratitude to [@Steffen911](https://github.com/Steffen911) who provided invaluable guidance through [the Langfuse Discussion](https://github.com/orgs/langfuse/discussions/5516) forum, helping us arrive at this Clickhouse implementation solution.
 
 His assistance was instrumental in reaching this point.
 
