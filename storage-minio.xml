@@ -1,0 +1,22 @@
+<clickhouse>
+    <storage_configuration>
+        <disks>
+            <s3_disk>
+                <type>s3</type>
+                <endpoint>http://minio:9000/langfuse-clickhouse/</endpoint>
+                <access_key_id>minio</access_key_id>
+                <secret_access_key>miniosecret</secret_access_key>
+                <metadata_path>/var/lib/clickhouse/disks/s3_disk/</metadata_path>
+            </s3_disk>
+        </disks>
+        <policies>
+            <s3_main>
+                <volumes>
+                    <main>
+                        <disk>s3_disk</disk>
+                    </main>
+                </volumes>
+            </s3_main>
+        </policies>
+    </storage_configuration>
+</clickhouse>
