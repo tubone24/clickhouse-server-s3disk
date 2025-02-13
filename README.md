@@ -40,7 +40,13 @@ First, create an ECS cluster to run Clickhouse.
 
 Create an EFS for metadata storage and mount it in the ECS task definition. Additionally, create an S3 bucket for S3Disk storage.
 
-### Build Docker Image
+### Docker pull
+
+```bash
+docker pull ghcr.io/tubone24/clickhouse-server-s3disk:latest
+```
+
+### Build Docker Image(Optional)
 
 Create a Docker image using clickhouse-server as the base image. Push this image to your pre-configured ECR repository.
 
