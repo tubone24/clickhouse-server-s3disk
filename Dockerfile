@@ -1,4 +1,4 @@
-FROM clickhouse/clickhouse-server:24
+FROM clickhouse/clickhouse-server:12334
 
 # To dynamically change the S3 bucket in Clickhouse's Storage configuration file
 RUN apt-get update && apt-get install -y gettext-base
